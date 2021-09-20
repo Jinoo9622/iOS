@@ -1,10 +1,8 @@
 # Cocoa touch Framework
 
-
 - iOS 개발환경을 구축하기위한 최상위 Framework
 
 ![Cocoa_Touch_Framework_img](https://user-images.githubusercontent.com/46417892/133990874-6b7de611-572c-4bbb-86b4-18f6f636d7a8.png)
-
 
 
 
@@ -18,3 +16,19 @@
  ![ MVC](https://user-images.githubusercontent.com/46417892/133991670-5af39a91-1f03-4614-96c0-c266532b8e6a.png)
  - 출처 : https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8D%B8-%EB%B7%B0-%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC
 
+
+
+## UIView
+
+- 화면의 직사각형 영역에 대한 내용을 관리하는 object
+  - 여러 UI componet들의 부모클래스
+
+## ViewController
+
+- 앱의 근간을 이루는 객체
+- 모든 앱은 최소한 하나 이상의 View Controller를 가짐 
+  
+  - 데이터 변화에 따라 view 컨텐츠를 업데이트
+  - view들과 함께 사용자 상호작용에 응답
+  - view를 리사이징하고, 전체적인 인터페이스의 레이아웃 관리
+  - 다른 view controller들과 함께 앱을 구성
