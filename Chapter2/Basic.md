@@ -33,3 +33,9 @@
   - view들과 함께 사용자 상호작용에 응답
   - view를 리사이징하고, 전체적인 인터페이스의 레이아웃 관리
   - 다른 view controller들과 함께 앱을 구성
+
+
+## AutoLayout
+
+- 제약조건(Constraints)를 이용하여 뷰의 위치를 지정하는 것
+- iPhone의 다양한 해상도 비율에 대응
