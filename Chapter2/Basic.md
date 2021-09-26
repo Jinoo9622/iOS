@@ -63,3 +63,10 @@
 - view controller에서 다른 view controller를 호출하여 전환하기
 - Navigation Controller를 사용하여 화면 전환하기
 - 화면 전환용 객체 세그웨이(Segueway)를 사용하여 화면 전환하기
+    - Action Segueway : 출발점이 Button / Cell 등인 경우 (트리거 이벤트를 통한 화면 전환)
+     - Show
+     - Show Detail
+     - Present Modally
+     - Present As Popover
+     - Custom
+    - Manual Segueway : 출발점이 ViewController 자체인 경우 (performSegue method 호출)
