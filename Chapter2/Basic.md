@@ -49,3 +49,13 @@
 - 하나 이상의 Child View Controller를 관리하고 레이아웃과 화면 전환을 담당한다.
 - 화면 구성과 이벤트 관리는 Child View Controller에서 한다.
 - Container View Controller는 대표적으로 Navigation Controller와 TapBar Controller가 있다.
+### UINavigationController
+- 계층구조로 구성된 content를 순차적으로 보여주는 container view controller
+- Navigataion Stack을 이용하여 child view controller들을 관리한다.
+
+### Navigation Stack
+![stack](https://user-images.githubusercontent.com/46417892/134804169-5347ed05-5910-4948-8c4d-fcddc917ce03.png)
+
+
+출처 : https://sites.google.com/site/ionic2withangular2/home/understanding-ionic-2-navigation-with-navcontroller
+
