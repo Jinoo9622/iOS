@@ -64,9 +64,10 @@
 - Navigation Controller를 사용하여 화면 전환하기
 - 화면 전환용 객체 세그웨이(Segueway)를 사용하여 화면 전환하기
     - Action Segueway : 출발점이 Button / Cell 등인 경우 (트리거 이벤트를 통한 화면 전환)
-        - Show
-        - Show Detail
-        - Present Modally
-        - Present As Popover
-        - Custom
+        - Show : Navigation Controller를 사용한 경우, 화면 전환 시, view controller가 stack에 쌓이게 되고, 그렇지 않은 경우에는 present modally와 동일하게 동작
+        - Show Detail : split view에서 사용, iPhone의 경우에는 show와 동일하게 동작하나, iPad에서 사용 시, split 구조의 master/slave 구조가 됨
+            - ex) Message앱
+        - Present Modally : 이전 View Controller를 덮으면서 새로운 화면이 나옴
+        - Present As Popover : iPad에서 사용함 (팝업창이 뜨게됨)
+        - Custom : 사용자 정의
     - Manual Segueway : 출발점이 ViewController 자체인 경우 (performSegue method 호출)
