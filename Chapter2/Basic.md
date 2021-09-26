@@ -58,7 +58,7 @@
 
 출처 : https://sites.google.com/site/ionic2withangular2/home/understanding-ionic-2-navigation-with-navcontroller
 
-## 화면 전환 방식
+## 화면 전환 방식 (소스코드 이용 / Storyboard 이용)
 - view controller의 view위에 다른 view를 가져와 바꿔치기 (일반적으로 사용 X)
 - view controller에서 다른 view controller를 호출하여 전환하기
 - Navigation Controller를 사용하여 화면 전환하기
