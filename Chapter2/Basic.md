@@ -56,6 +56,9 @@
 ### Navigation Stack
 ![stack](https://user-images.githubusercontent.com/46417892/134804169-5347ed05-5910-4948-8c4d-fcddc917ce03.png)
 
-
 출처 : https://sites.google.com/site/ionic2withangular2/home/understanding-ionic-2-navigation-with-navcontroller
 
+## 화면 전환 방식
+- 소스코드를 통해 전환하는 방식
+- Storyboard를 통해 전환하는 방식
+## 화면 전환 방식
