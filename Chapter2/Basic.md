@@ -71,3 +71,10 @@
         - Present As Popover : iPad에서 사용함 (팝업창이 뜨게됨)
         - Custom : 사용자 정의
     - Manual Segueway : 출발점이 ViewController 자체인 경우 (performSegue method 호출)
+
+----
+
+## 화면간 데이터 전달하기
+- 코드로 구현된 화면 전환 방법에서 데이터 전달하기
+- segueway로 구현된 화면 전환 방법에서 데이터 전달하기
+- Delegate 패턴을 이용하여 이전 화면을 데이터 전달하기
