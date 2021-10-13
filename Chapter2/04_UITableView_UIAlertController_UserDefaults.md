@@ -18,6 +18,23 @@
   // 특정 인덱스 Row의 Cell에 대한 정보를 넣어 Cell을 반환하는 메서드
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
   ```
+  - optional func
+  ```swift
+  // 총 섹션 개수를 묻는 메서드
+  optional func numberOfSections(in tableView: UITableView) -> Int
+  
+  // 특정 세션의 헤더 타이틀을 묻는 메서드
+  optional func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String?
+  
+  // 특정 세션의 푸터 타이틀을 묻는 메서드
+  optional func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String?
+  
+  // 특정 위치의 행이 편집 가능한지 묻는 메서드
+  optional func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool
+  
+  // 특정 위치의 행을 재정렬 할 수 있는지 묻는 메서드
+  optional func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool
+   ```
 
 ## UIAlertController
 
