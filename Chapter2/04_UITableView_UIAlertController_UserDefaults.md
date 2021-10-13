@@ -7,10 +7,16 @@
 
 ### UITableViewDelegate / UITableViewDataSource
 - UITableViewDelegate
-  - 테이블뷰의 동작과 외관을 담당
+  - 
 - UITableViewDataSource
-  - 데이터를 받아 뷰를 그려줌
-
+  - 테이블 뷰를 생성하고 수정하는데 필요한 정보를 테이블 뷰 객체에 제공
+  '''
+  // 각 세션에 표시할 행의 개수를 묻는 메서드
+  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+  
+  // 특정 인덱스 Row의 Cell에 대한 정보를 넣어 Cell을 반환하는 메서드
+  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+  '''
 
 ## UIAlertController
 
