@@ -10,7 +10,7 @@
   - 
 - UITableViewDataSource
   - 테이블 뷰를 생성하고 수정하는데 필요한 정보를 테이블 뷰 객체에 제공
-  ```
+  ```swift
   // 각 세션에 표시할 행의 개수를 묻는 메서드
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
   
