@@ -52,7 +52,7 @@
   
 ### UICollectionViewDataSource
 - 컬렉션 뷰로 보여지는 컨텐츠들을 관리하는 객체
-- UICollectionViewDataSource protocol 채택 시, **필수적으로 구현해야하는 함수**
+- UICollectionViewDataSource protocol의 주요 함수
   ```swift
   // 지정된 섹션에 표시할 셀의 개수를 묻는 메서드
   func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
