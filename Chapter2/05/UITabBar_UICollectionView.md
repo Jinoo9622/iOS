@@ -45,3 +45,21 @@
   - 실제 행간의 간격은 최소 행간 간격보다 클 수 있음
   ![image](https://user-images.githubusercontent.com/46417892/138858509-d2a68cea-9776-4419-b388-dd71b1ff0cf9.png)
   출처 : https://developer.apple.com/library/archive/documentation/WindowsViews/Conceptual/CollectionViewPGforIOS/UsingtheFlowLayout/UsingtheFlowLayout.html
+  
+- Inset : section 자체의 여백 지정
+  ![flow_section_insets_2x_55c8bbe4-9184-4ecf-bb17-ce4ad88868f2](https://user-images.githubusercontent.com/46417892/138858920-fe8f9eb2-4583-427b-8e7c-6b688f2479dd.png)
+  출처 : https://developer.apple.com/documentation/appkit/nscollectionviewflowlayout/1402862-sectioninset
+  
+### UICollectionViewDataSource
+- 컬렉션 뷰로 보여지는 컨텐츠들을 관리하는 객체
+- UICollectionViewDataSource protocol 채택 시, **필수적으로 구현해야하는 함수**
+  ```swift
+  // 지정된 섹션에 표시할 셀의 개수를 묻는 메서드
+  func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
+  
+  // 컬렉션뷰의 지정된 위치에 표시할 셀을 요청하는 메서드
+  func collectionView(_ collectionView: UICollecionView, cellForRowAt indexPath: IndexPath) -> UICollectionViewCell
+  
+  // 섹션의 개수를 묻는 메서드
+  optional func numberOfSections(in collectionView: UICollectionView) -> Int
+  ```
