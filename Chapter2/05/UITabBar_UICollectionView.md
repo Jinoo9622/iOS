@@ -63,3 +63,7 @@
   // 섹션의 개수를 묻는 메서드
   optional func numberOfSections(in collectionView: UICollectionView) -> Int
   ```
+  
+### UICollectionViewDelegate
+- 컨텐츠의 표현, 사용자와의 상호작용과 관련된 것들을 관리하는 객체
+- 필수로 구현할 필요 X
