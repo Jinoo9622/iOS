@@ -31,8 +31,8 @@
   출처 : https://developer.apple.com/documentation/appkit/nscollectionviewflowlayout
  
 - 구성단계
-  1. FlowLayout 객체를 작성하고, 컬렉션 부에 이를 할당한다.
-  2. 셀의 width, height를 정한다.
+  1. FlowLayout 객체를 작성하고, 컬렉션 뷰에 이를 할당한다.
+  2. **셀의 width, height를 정한다.** (default가 0이기에 꼭 width, height 지정)
   3. 필요한 경우, 셀들간의 좌우 최소 간격, 위아래 최소 간격을 설정한다.
   4. 섹션에 header와 footer가 있다면, 이것들의 크기를 지정한다.
   5. layout의 스크롤 방향을 설정한다
