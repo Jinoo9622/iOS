@@ -80,7 +80,3 @@
   // 행이 다른 위치로 이동되면 어디에서 어디로 이동했는지 알려주는 메서드
   optional func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath)
    ```
-
-## UIAlertController
-
-## UserDefaults
