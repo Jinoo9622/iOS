@@ -39,9 +39,9 @@
 
 - Spacing : cell과 행간의 간격 지정 
   - 실제 cell간의 간격은 최소 cell간 간격보다 클 수 있음
-  ![flow_item_spacing_2x](https://user-images.githubusercontent.com/46417892/138857716-8b3cab51-5470-4d8b-ab44-7029bd7ec5b4.png) 
+  ![image](https://user-images.githubusercontent.com/46417892/138858434-a00be938-09b5-4e58-82b3-d2ba2c591a05.png)
   출처 : https://developer.apple.com/library/archive/documentation/WindowsViews/Conceptual/CollectionViewPGforIOS/UsingtheFlowLayout/UsingtheFlowLayout.html
   
   - 실제 행간의 간격은 최소 행간 간격보다 클 수 있음
-  ![flow_line_spacing_2x](https://user-images.githubusercontent.com/46417892/138857756-e9da7343-ba68-4c37-b663-c663e9879559.png)
+  ![image](https://user-images.githubusercontent.com/46417892/138858509-d2a68cea-9776-4419-b388-dd71b1ff0cf9.png)
   출처 : https://developer.apple.com/library/archive/documentation/WindowsViews/Conceptual/CollectionViewPGforIOS/UsingtheFlowLayout/UsingtheFlowLayout.html
