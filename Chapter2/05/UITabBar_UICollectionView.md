@@ -67,3 +67,18 @@
 ### UICollectionViewDelegate
 - 컨텐츠의 표현, 사용자와의 상호작용과 관련된 것들을 관리하는 객체
 - 필수로 구현할 필요 X
+
+
+## NotificationCenter
+- 등록된 이벤트 발생 시, 해당 이벤트에 대항 행동을 취함
+- 앱 내의 어디서든 베세지를 받을 수 있게하는 역할을 함
+  ![notificationCenter](https://user-images.githubusercontent.com/46417892/141744234-5e30e0c4-4220-4e6b-90b4-20d8a4dd5a4a.png)
+  출처 : https://baked-corn.tistory.com/42
+
+### Notification
+- NotificationCenter를 통해 정보를 저장하기위한 구조체
+    ```swift
+    var name: Notification.Name  // 이벤트 식별 태그
+    var object: Any?  // 옵저버에게 보내려고 하는 객체.
+    var userInfo: [AnyHashble: Any]?  // Notification과 관련된 값 또는 객체
+    ```
