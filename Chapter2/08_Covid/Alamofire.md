@@ -21,14 +21,17 @@
 - iOS / macOS / tvOS 등 Apple platform 개발 시, 외부 라이브러리 관리를 용이하게하는 의존성 관리 도구
 - 설치
   - 터미널에서 명령어 입력
+  
   ```cmd
   sudo gem install cocoapods
   ```
   - cocoapods를 설치할 프로젝트 경로로 이동하여 Podfile 생성
+  
   ```cmd
   pod init
   ```
-  - 설치할 라이브러리를 입력 후,
+  - 설치할 라이브러리를 입력 후, 
+  
   ```cmd
   # Uncomment the next line to define a global platform for your project
   # platform :ios, '9.0'
@@ -43,9 +46,9 @@
   pod 'Charts'
   # Pods for project
   end
-
   ```
-  - pod 초기화 
+  - 라이브러리 설치
+  
   ```cmd
   pod install
   ```
