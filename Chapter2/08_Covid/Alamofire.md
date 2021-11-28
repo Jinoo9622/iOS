@@ -22,34 +22,34 @@
 - 설치
   - 터미널에서 명령어 입력
   
-  ```cmd
-  sudo gem install cocoapods
-  ```
+  - ```cmd
+    sudo gem install cocoapods
+    ```
   - cocoapods를 설치할 프로젝트 경로로 이동하여 Podfile 생성
   
-  ```cmd
-  pod init
-  ```
+  - ```cmd
+    pod init
+    ```
   - 설치할 라이브러리를 입력 후, 
   
-  ```cmd
-  # Uncomment the next line to define a global platform for your project
-  # platform :ios, '9.0'
+  - ```cmd
+    # Uncomment the next line to define a global platform for your project
+    # platform :ios, '9.0'
 
-  target 'project' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+    target 'project' do
+    # Comment the next line if you don't want to use dynamic frameworks
+    use_frameworks!
 
-  # Alamofire
-  pod 'Alamofire'
-  # charts
-  pod 'Charts'
-  # Pods for project
-  end
-  ```
+    # Alamofire
+    pod 'Alamofire'
+    # charts
+    pod 'Charts'
+    # Pods for project
+    end
+    ```
   - 라이브러리 설치
   
-  ```cmd
-  pod install
-  ```
+  - ```cmd
+    pod install
+    ```
   
