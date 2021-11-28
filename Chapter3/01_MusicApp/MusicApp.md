@@ -14,3 +14,7 @@
   - Consumer: Service Provider의 API(제공 기능)을 사용하려는 서비스 (web, app..)
   - Service Provider: OAuth를 사용하여 API를 제공하는 서비스
   - Access Token: 인증 완료 후, Service Provider의 제공 기능을 이용할 수 있는 권한을 위임받은 인증 키
+  
+  ![oauth2-flow](https://user-images.githubusercontent.com/46417892/143732715-95f693b5-17ec-4a14-a987-3ea3a5ed6e8d.png)
+ 
+  출처 : https://velog.io/@denmark-choco/OAuth-2
