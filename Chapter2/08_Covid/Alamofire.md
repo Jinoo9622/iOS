@@ -1,5 +1,5 @@
 ## Alamofire
-- Swift 기반의 HTTP 네트워킹 라이브러리
+- Swift URLSession 기반의 HTTP 네트워킹 라이브러리
 - Apple의 Foundation networking 기반으로 인터페이스를 제공하여, 일반적인 네트워킹 작업들을 단순화
 - 코드의 간소화, 가독성 측면에서 도움을 주고 여러기능을 직접 구축하지 않아도 쉽게 사용 가능
 - 특징
@@ -17,6 +17,10 @@
   - Comprehensive Unit and Integration Test Coverage
   - 완벽한 문서화
 
-  ```swift
-  
+## Cocoapods
+- iOS / macOS / tvOS 등 Apple platform 개발 시, 외부 라이브러리 관리를 용이하게하는 의존성 관리 도구
+- 설치
+  - 터미널에서 아래의 명령어 
+  ```cmd
+  sudo gem install cocoapods
   ```
