@@ -22,17 +22,17 @@
 - 설치
   - 터미널에서 명령어 입력
   
-  - ```cmd
+    ```cmd
     sudo gem install cocoapods
     ```
   - cocoapods를 설치할 프로젝트 경로로 이동하여 Podfile 생성
   
-  - ```cmd
+    ```cmd
     pod init
     ```
   - 설치할 라이브러리를 입력 후, 
   
-  - ```cmd
+    ```cmd
     # Uncomment the next line to define a global platform for your project
     # platform :ios, '9.0'
 
@@ -49,7 +49,7 @@
     ```
   - 라이브러리 설치
   
-  - ```cmd
+    ```cmd
     pod install
     ```
   
