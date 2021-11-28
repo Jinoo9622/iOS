@@ -40,11 +40,11 @@
     # Comment the next line if you don't want to use dynamic frameworks
     use_frameworks!
 
-    # Alamofire
+    # Pods for project
+     # Alamofire
     pod 'Alamofire'
     # charts
     pod 'Charts'
-    # Pods for project
     end
     ```
   - 라이브러리 설치
