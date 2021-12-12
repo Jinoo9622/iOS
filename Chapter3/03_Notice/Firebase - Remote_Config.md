@@ -23,3 +23,5 @@
   ![Diagram-AB-Testing-IO-v2](https://user-images.githubusercontent.com/46417892/145706916-cdb5ced0-0422-46f7-8032-fdd8091b04a2.png)
   출처 : https://firebase.google.com/docs/ab-testing
   
+  - test device의 condition 변경
+    ![KakaoTalk_Photo_2021-12-12-20-17-18](https://user-images.githubusercontent.com/46417892/145710169-899bf964-640a-466d-af1d-ee9752093b81.png)
