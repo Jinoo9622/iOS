@@ -7,7 +7,7 @@
   - Provider(Server) -> APNS -> Device -> Application(Notification) 
  
    ![remote_notif_simple_2x](https://user-images.githubusercontent.com/46417892/147224243-ceb1133e-7a8a-42e1-89d5-09d1bea55cd3.png)
-    출처 : https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1
+    출처 : https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html
 - 동작방식
   - 등록
     1. Push 받을 앱이 APNs에 device Token을 요청
@@ -18,4 +18,4 @@
     3. 해당 device(앱)에서 Push 알림(Remote Notification) 생성
     
     ![image](https://user-images.githubusercontent.com/46417892/147226479-42052436-7efb-405d-ad6d-06fa538f3d5a.png)
-    출처 : https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1
+    출처 : https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html
