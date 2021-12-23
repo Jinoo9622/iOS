@@ -17,5 +17,5 @@
     2. APNs는 해당 data를 device Token과 매칭되는 device에 data 전달
     3. 해당 device(앱)에서 Push 알림(Remote Notification) 생성
     
-    ![token_trust_2x](https://user-images.githubusercontent.com/46417892/147226345-f3e80051-7cbf-4ad2-8ffe-c04be7236598.png)
+    ![image](https://user-images.githubusercontent.com/46417892/147226479-42052436-7efb-405d-ad6d-06fa538f3d5a.png)
     출처 : https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1
