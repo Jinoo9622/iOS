@@ -1,6 +1,3 @@
-## Remote Notification
-
-
 ## APNS (Apple Push Notification Service)
 - Apple 장치에 설치된 응용 프로그램에 알림 데이터를 보낼 수 있도록 하는 플랫폼 알림 서비스
 - 전달 순서
