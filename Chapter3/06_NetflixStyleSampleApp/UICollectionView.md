@@ -2,18 +2,14 @@
 
 |Purpose|Classes/Protocols|
 |---|---|
-|Top-level containment and management|UICollectionView|
-||UICollectionViewController|
-|---|---|
-|Content management|UICollectionViewDataSource|
-||UICollectionViewDelegate|
-|---|---|
-|Presentation|UICollectionReusableView|
-||UICollectionViewCell|
-|---|---|
-|Layout|UICollectionViewLayout|
-||UICollectionViewLayoutAttributes|
-||UICollectionViewUpdateItem|
-|---|---|
-|Flow Layout|UICollectionViewFlowLayout|
-||UICollectionViewDelegateFlowLayout|
+|Top-level containment and management|UICollectionView
+                                      UICollectionViewController|
+|Content management|UICollectionViewDataSource
+                    UICollectionViewDelegate|
+|Presentation|UICollectionReusableView
+              UICollectionViewCell|
+|Layout|UICollectionViewLayout
+        UICollectionViewLayoutAttributes
+        UICollectionViewUpdateItem|
+|Flow Layout|UICollectionViewFlowLayout
+             UICollectionViewDelegateFlowLayout|
