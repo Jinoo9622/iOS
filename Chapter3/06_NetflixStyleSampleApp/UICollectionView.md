@@ -40,4 +40,4 @@
     - Layout 정보를 동적으로 custom
 
   ![image](https://user-images.githubusercontent.com/46417892/147404263-7510fea5-163b-4216-b2ce-e8d890dba15d.png)
-  출처 : https://developer.apple.com/library/archive/documentation/WindowsViews/Conceptual/CollectionViewPGforIOS/CollectionViewBasics/CollectionViewBasics.html#//apple_ref/doc/uid/TP40012334-CH2-SW7
+  출처 : https://developer.apple.com/library/archive/documentation/WindowsViews/Conceptual/CollectionViewPGforIOS/CollectionViewBasics/CollectionViewBasics.html
