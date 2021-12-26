@@ -18,3 +18,20 @@
   ![oauth2-flow](https://user-images.githubusercontent.com/46417892/143732715-95f693b5-17ec-4a14-a987-3ea3a5ed6e8d.png)
  
   출처 : https://velog.io/@denmark-choco/OAuth-2
+
+
+## Apple Signin Setting
+- **Apple Developer 가입 후 진행**
+
+1. Xcode -> Targets -> Signing & Capability에 Sign in with Apple 추가
+   ![image](https://user-images.githubusercontent.com/46417892/147401782-69a25e27-19bc-48fb-ad7c-c505c6695ad0.png)
+
+2. Apple Developer -> Account -> Certificates, Identifiers & Profiles -> Identifiers에서 Services IDs 추가
+3. 생성된 Identifiers -> Configure
+   ![image](https://user-images.githubusercontent.com/46417892/147401856-967a5e44-dadd-4ae3-8d20-3ea165e5ef0b.png)
+   
+   3.1 Domains and Subdomains에 firebaseapp.com url 추가
+       ![image](https://user-images.githubusercontent.com/46417892/147401897-d4670702-49eb-421a-8fc2-2f4fd5ace930.png)
+       
+   3.2 Return URLs에 Apple Sign-in Return URL 추가
+       ![image](https://user-images.githubusercontent.com/46417892/147401941-99c9e44b-2733-4dfd-a8f0-da80a965cdf6.png)
