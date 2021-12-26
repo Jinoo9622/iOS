@@ -19,6 +19,11 @@
  
   출처 : https://velog.io/@denmark-choco/OAuth-2
 
+## Firebase Auth
+- 어려운 SignIn 기능을 쉽고 안전하게 : OAuth 2.0, OpenID Connect 등의 업계 표준 활용, 삽입형 인증 솔루션 제공
+- 다양한 인증 방식 제공 : 이메일/비밀번호, ID 공급업체, 전화번호, 커스텀 인증, 익명 인증
+- 별도 Backend 개발 없이 인증 서비스 제공 : Serverless framework
+
 
 ## Apple Signin Setting
 - **Apple Developer 가입 후 진행**
