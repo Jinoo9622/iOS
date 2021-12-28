@@ -17,3 +17,17 @@
   ![rendered2x-1585241228](https://user-images.githubusercontent.com/46417892/147544677-a16f0891-d981-43af-9244-7498fe64e8a5.png)
   
    출처 : https://developer.apple.com/documentation/uikit/nscollectionlayoutitem
+
+- size type
+  - Absolute : 절대적인 값, 정확한 치수
+    ```swift
+    let absoluteSize = NSCollectionLayoutSize(widthDimension: .absolute(44), heightDimension: .absolute(44))
+    ```
+  - Estimate : 예상값, run time에 contents 크기가 변경될 수 있는 경우 사용
+    ```swift
+    let estimatedSize = NSCollectionLayoutSize(widthDimension: .estimated(44), heightDimension: .estimated(44))
+    ```
+  - Fractional : 비율값, item container를 기준으로 값을 정의
+    ```swift
+    let fractionalSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(44), heightDimension: .fractionalWidth(44))
+    ```
