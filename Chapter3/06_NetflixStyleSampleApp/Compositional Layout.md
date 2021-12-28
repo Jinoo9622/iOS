@@ -48,5 +48,5 @@
     ```
   - Fractional : 비율값, item container를 기준으로 값을 정의
     ```swift
-    let fractionalSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(44), heightDimension: .fractionalWidth(44))
+    let fractionalSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(44), heightDimension: .fractionalHeight(44))
     ```
