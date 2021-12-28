@@ -14,19 +14,28 @@
   let layout = NSCollectionViewCompositionalLayout(section: section)
   ```
 - Item
+
   ![rendered2x-1585241228](https://user-images.githubusercontent.com/46417892/147544677-a16f0891-d981-43af-9244-7498fe64e8a5.png)
   
    출처 : https://developer.apple.com/documentation/uikit/nscollectionlayoutitem
 
 - Item > Group
+
   ![rendered2x-1585241228 (1)](https://user-images.githubusercontent.com/46417892/147546249-0e440041-fe38-4d60-a94b-f4a05e597e70.png)
   
   출처 : https://developer.apple.com/documentation/uikit/nscollectionlayoutgroup
   
 - Item > Group > Section
+
   ![rendered2x-1585241228 (2)](https://user-images.githubusercontent.com/46417892/147546306-3b9d0742-0f88-4a43-85b2-dd33444dc814.png)
   
   출처 : https://developer.apple.com/documentation/uikit/nscollectionlayoutsection
+
+- Item > Group > Section > Layout
+
+  ![rendered2x-1585241228 (3)](https://user-images.githubusercontent.com/46417892/147546700-524ca568-8eba-4ba9-9936-f0e363e4a95f.png)
+
+  출처 : https://developer.apple.com/documentation/uikit/views_and_controls/collection_views/layouts
 
 - size type
   - Absolute : 절대적인 값, 정확한 치수
