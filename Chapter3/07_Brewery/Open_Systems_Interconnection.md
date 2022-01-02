@@ -42,3 +42,9 @@
     출처 : https://www.networkingreviews.com/images/osi.gif
  
 ## URL (Uniform Resource Locater)
+- 네트워크 상에서 자원이 어디 있는지를 알려주기 위한 규약
+- 웹 사이트 주소뿐만 아니라 컴퓨터 네트워크상의 자원을 모두 나타낼 수 있음
+- 표현방법
+  ```
+  scheme://<user>:<password>@<host>:<port>/<url-path>
+  ```
