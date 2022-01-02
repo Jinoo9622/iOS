@@ -60,5 +60,7 @@
   - **/path**
     - 데이터 출처(리소스) 경로
 
-## HTTP
+---
+
+## HTTP & URLSession
 https://github.com/Jinoo9622/iOS/blob/master/Chapter2/07_Weather/URLSession.md
