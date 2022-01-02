@@ -45,6 +45,42 @@
 - 네트워크 상에서 자원이 어디 있는지를 알려주기 위한 규약
 - 웹 사이트 주소뿐만 아니라 컴퓨터 네트워크상의 자원을 모두 나타낼 수 있음
 - 표현방법
+
   ```
-  scheme://<user>:<password>@<host>:<port>/<url-path>
+  http://<host>:<port>/<path>?<searchpart>
   ```
+  - **http://**
+    - 프로토콜
+    - ex) ftp, mailto, telnet, http...
+  - **host**
+    - 웹 서버명 -> DNS명 -> IP 주소
+  - **:port**
+    - 포트명
+    - 기본값 : 80, 8080 (생략)
+  - **/path**
+    - 데이터 출처(리소스) 경로
+
+## HTTP
+- Request
+  - Method(do something)
+    - Get : 식별된 데이터 가져오기
+    - Post : 새 데이터 추가
+    - Put : 식별된 기존의 데이터 수정(업데이트)
+    - Patch : PUT과 동일하지만, 데이터 일부를 수정
+    - Delete : 식별된 데이터 삭제
+    - Head : GET과 동일하지만, 메시지 header와 status code만 반환
+    - Connect : Proxy 기능 요청
+    - Options : 웹서버에서 지원하는 메서드 확인
+    - Trace : 원격 서버 테스트용 메시지 확인
+  - URL(about resource)
+  - Header, Body(specifically how)
+- Response
+  - Status Code
+    - 1xx (정보전달) : request 수신, 진행중
+    - 2xx (success) : request를 성공적으로 수신, 해석, 승인
+    - 3xx (redirection)
+    - 4xx (client error)
+    - 5xx (server error)
+  - Message
+  - Header, Body
+  
