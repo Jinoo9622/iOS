@@ -51,3 +51,10 @@
   3. 사용할 Task를 결정하고, 그에 맞는 Completion Handler나 Delegate method들을 작성
   4. 해당 Task를 실행
   5. Task 완료 후, Completion Handler 클로저 실행
+  
+  ![bf4501ff-82b2-4dd4-9ec3-243ef0e70d21](https://user-images.githubusercontent.com/46417892/147872338-b364ed50-a6a7-4293-8218-b3d8445dc49a.png)
+  
+  출처 : https://docs-assets.developer.apple.com/published/c7124fb5d7/bf4501ff-82b2-4dd4-9ec3-243ef0e70d21.png
+
+  
+
