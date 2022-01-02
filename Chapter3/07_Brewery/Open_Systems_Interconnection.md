@@ -6,7 +6,9 @@
   출처 : https://www.networkingreviews.com/images/osi-model-7-layers.png
 
 - Network의 기본 모델
-  - 과정
+  - encapsulation & decapsulation 과정
+  - Sending : 각각의 layer에서 인식할 수 있는 header를 추가
+  - Receiving : 각각의 layer에서 인식할 수 있는 header를 제거
     
     ![osi](https://user-images.githubusercontent.com/46417892/147871011-1a911957-085c-4913-bece-84cc4efe07cc.gif)
     
