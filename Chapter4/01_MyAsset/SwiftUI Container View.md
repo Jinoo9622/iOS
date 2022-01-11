@@ -6,14 +6,14 @@
   -> contents가 view를 넘어가는 경우, scroll view 내에 stack container 추가
 
   - StackView
-  ![image](https://user-images.githubusercontent.com/46417892/148922470-1a04aba3-3bb1-47c1-b5fc-0e87e7789b2b.png)
+    ![image](https://user-images.githubusercontent.com/46417892/148922470-1a04aba3-3bb1-47c1-b5fc-0e87e7789b2b.png)
 
-  출처 : https://docs-assets.developer.apple.com/published/ce0ca452c3bcccf11149a8728f1c489f/10600/Building-Layouts-with-Stack-Views-1@2x.png
+    출처 : https://docs-assets.developer.apple.com/published/ce0ca452c3bcccf11149a8728f1c489f/10600/Building-Layouts-with-Stack-Views-1@2x.png
 
   - Lazy StackView
-  ![image](https://user-images.githubusercontent.com/46417892/148922746-cb6d5941-df7c-4398-a76c-8038a0b32c9a.png)
+    ![image](https://user-images.githubusercontent.com/46417892/148922746-cb6d5941-df7c-4398-a76c-8038a0b32c9a.png)
   
-  출처 : https://docs-assets.developer.apple.com/published/11e35ee58bbcc2fe0e58e4add7ff42d1/10600/Picking-Container-Views-for-Your-Content-2@2x.png
+    출처 : https://docs-assets.developer.apple.com/published/11e35ee58bbcc2fe0e58e4add7ff42d1/10600/Picking-Container-Views-for-Your-Content-2@2x.png
   
   
 ## Grid
@@ -33,7 +33,9 @@
 - scroll view를 포함
 
 ## Form
-- setting 등의 화면을 
+- system 표준 form을 사용하는 데이터 입력 interface, setting 등의 화면을 layout하는데 적합
+- os별(iOS, macOS)로 따로따로 구현할 필요가 없음
+  -> 각각의 platform에 적합한 방식으로 내용을 표현
 
   ![image](https://user-images.githubusercontent.com/46417892/148923041-439b0cab-ccda-4b66-a7d8-fe5e9ea8b7d3.png)
 
