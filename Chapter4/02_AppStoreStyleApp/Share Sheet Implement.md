@@ -19,6 +19,7 @@
   1. 어떤 컨텐츠를 User가 공유시킬수 있도록 할 것인지
   2. 어떤 앱을 우선순위로 공유 or 제외 할 것인지
   <br>
+  
   ```swift
   // activityItems: [Any] -> 앱에서 공유할 콘텐츠 (앱 상세화면으로 이동할 URL)
   // applicationActivities: [UIActivity]? -> 공유될 목적지 (iOS 기본 메시지 앱 등)
