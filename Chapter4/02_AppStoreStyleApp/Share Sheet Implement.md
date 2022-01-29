@@ -27,3 +27,8 @@
   ```
   
 - 참고 : https://developer.apple.com/documentation/uikit/uiactivityviewcontroller
+
+## Tip
+- MARK 사용 시, Xcode에서 영역 구별 가능
+  
+  ![image](https://user-images.githubusercontent.com/46417892/151651443-2b0e01cd-4351-4214-b7a1-c92c4642841d.png)
