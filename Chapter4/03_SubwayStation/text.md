@@ -25,5 +25,5 @@
     
      ※ UISearchController의 obscuresBackgroundDuringPresentation = true인 경우, iOS 15 이상부터는 search bar 영역까지 딤처리됨
       
-      ![image](https://user-images.githubusercontent.com/46417892/152761916-42894001-fd7b-44d8-904a-29561baef30e.png)
+     ![image](https://user-images.githubusercontent.com/46417892/152761916-42894001-fd7b-44d8-904a-29561baef30e.png)
 
