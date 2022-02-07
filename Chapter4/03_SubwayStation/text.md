@@ -25,3 +25,14 @@
       
      ![image](https://user-images.githubusercontent.com/46417892/152761916-42894001-fd7b-44d8-904a-29561baef30e.png)
 
+- Search Bar의 Focus 여부 확인 => UISearchBarDelegate 구현
+  
+   ```swift
+   func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+        // SearchBar Focus On
+    }
+    
+    func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
+        // SearchBar Focus Out
+    }
+   ```
