@@ -17,7 +17,7 @@
 
           let searchController = UISearchController()
           searchController.searchBar.placeholder = "지하철 역을 입력해주세요."
-          searchController.obscuresBackgroundDuringPresentation = false
+          searchController.obscuresBackgroundDuringPresentation = false   // search bar에 focus가 있는 경우, 검색결과 영역 (search bar 하단의 딤처리 여부)
 
           navigationItem.searchController = searchController
     }
