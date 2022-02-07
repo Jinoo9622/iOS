@@ -5,7 +5,7 @@
 - 사용법  
   1. UINavigationController 생성
   2. UISearchController 생성
-  3. navigationController의 navigationItem에 생성한 searchController 설정
+  3. navigationController의 navigationItem에 생성한 searchController 설정 <br>
 
   ```swift
   ...
