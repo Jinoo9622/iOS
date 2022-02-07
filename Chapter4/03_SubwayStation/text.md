@@ -22,3 +22,7 @@
           navigationItem.searchController = searchController
     }
     ```
+    
+     ※ UISearchController의 obscuresBackgroundDuringPresentation = true인 경우, iOS 15 이상부터는 search bar 영역까지 딤처리됨
+     ![image](https://user-images.githubusercontent.com/46417892/152761639-5254ebba-e052-44c9-9b27-bca8bb2aa910.png)
+
