@@ -37,4 +37,7 @@
     }
    ```
 ### UIRefreshControl
-- UICollectionView와 함께 
+- UICollectionView와 함께 사용
+  <br>
+  ![image](https://user-images.githubusercontent.com/46417892/152770598-5cbce22a-dc40-483d-8fb6-e48102316327.png)
+
