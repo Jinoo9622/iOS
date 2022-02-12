@@ -15,9 +15,9 @@
   
   ```swift
   class StationSearchViewController: UIViewController {
-      // 생략
+
       private func requestStationName(from stationName: String) {
-          // 생략
+
           AF.request(urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "").responseDecodable(of: StationResponseModel.self) { [weak self] response in
               guard let self = self,
                   case .success(let data) = response.result else { return }
@@ -38,7 +38,6 @@
               }
           }.resume()
        }
-       // 생략
   }
   ```
 - 도착 정보 표시 후, 1분뒤에 자동으로 서버에 요청하는 코드 구현하기
