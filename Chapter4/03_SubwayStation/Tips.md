@@ -15,11 +15,9 @@
   
   ```swift
   class StationSearchViewController: UIViewController {
-      ...
+      // 생략
       private func requestStationName(from stationName: String) {
-      
-          ...
-            
+          // 생략
           AF.request(urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "").responseDecodable(of: StationResponseModel.self) { [weak self] response in
               guard let self = self,
                   case .success(let data) = response.result else { return }
@@ -40,25 +38,17 @@
               }
           }.resume()
        }
-       
-       ...
-       
+       // 생략
   }
   ```
 - 도착 정보 표시 후, 1분뒤에 자동으로 서버에 요청하는 코드 구현하기
   ```swift
   class StationDetailViewController: UIViewController {
-      
-      ...
-      
+
       private var timer: Timer?
-      
-      ...
-      
+
       override func viewDidLoad() {
           super.viewDidLoad()
-          
-          ...        
 
           // TODO : 도착 정보 표시 후, 1분뒤에 자동으로 서버에 요청하는 코드 구현하기
           // 60초마다 반복적으로 fetchData 실행
@@ -71,8 +61,5 @@
           // 화면 이동 시, timer 정지 처리
           timer?.invalidate()
       }
-      
-      ...
-      
   }
   ```
