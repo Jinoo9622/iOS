@@ -17,39 +17,49 @@
   class StationSearchViewController: UIViewController {
       ...
       private func requestStationName(from stationName: String) {
-            ...
-            AF.request(urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "").responseDecodable(of: StationResponseModel.self) { [weak self] response in
-                guard let self = self,
-                    case .success(let data) = response.result else { return }
+      
+          ...
+            
+          AF.request(urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "").responseDecodable(of: StationResponseModel.self) { [weak self] response in
+              guard let self = self,
+                  case .success(let data) = response.result else { return }
 
-                // - TODO : 역 이름이 중복되는 경우, 하나만 표시하기
-                var stationNames = Set(data.stations.map { $0.stationName })
+              // - TODO : 역 이름이 중복되는 경우, 하나만 표시하기
+              var stationNames = Set(data.stations.map { $0.stationName })
 
-                self.stations = data.stations.filter {
-                    if stationNames.contains($0.stationName) {
-                        stationNames.remove($0.stationName)
-                        return true
-                    }
-                    return false
-                }
+              self.stations = data.stations.filter {
+                  if stationNames.contains($0.stationName) {
+                      stationNames.remove($0.stationName)
+                      return true
+                  }
+                  return false
+              }
 
-                DispatchQueue.main.async {
-                    self.tableView.reloadData()
-                }
-            }.resume()
+              DispatchQueue.main.async {
+                  self.tableView.reloadData()
+              }
+          }.resume()
        }
+       
        ...
+       
   }
   ```
 - 도착 정보 표시 후, 1분뒤에 자동으로 서버에 요청하는 코드 구현하기
   ```swift
   class StationDetailViewController: UIViewController {
+      
       ...
+      
       private var timer: Timer?
+      
       ...
+      
       override func viewDidLoad() {
           super.viewDidLoad()
+          
           ...        
+
           // TODO : 도착 정보 표시 후, 1분뒤에 자동으로 서버에 요청하는 코드 구현하기
           // 60초마다 반복적으로 fetchData 실행
           timer = Timer.scheduledTimer(timeInterval: 60, target: self, selector: #selector(fetchData), userInfo: nil, repeats: true)
@@ -61,6 +71,8 @@
           // 화면 이동 시, timer 정지 처리
           timer?.invalidate()
       }
+      
       ...
+      
   }
   ```
