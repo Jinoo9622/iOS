@@ -42,17 +42,19 @@
 ## UIAlertController
 - alert
   <br>
+  
   ![image](https://user-images.githubusercontent.com/46417892/154256902-b57ddbcd-47a4-4ad6-b5c3-6d6cd32c4a08.png)
-
   <br>
+  
   ![image](https://user-images.githubusercontent.com/46417892/154257602-4706052a-49b6-4c8d-a495-1c18c01571ee.png)
 
   
 - actionSheet
   <br>
+  
   ![image](https://user-images.githubusercontent.com/46417892/154256868-41b995cc-871b-4e59-9e4c-3eafd7de5ec5.png)
-
   <br>
+  
   ![image](https://user-images.githubusercontent.com/46417892/154256935-4228d6a1-5d44-4a6b-995d-584758e4da72.png)
 
   
