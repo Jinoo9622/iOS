@@ -27,7 +27,6 @@
 
     ![image](https://user-images.githubusercontent.com/46417892/154256325-ac1369b1-8f4e-4f1f-8232-9d26ec16776a.png)
     
-  <br>
   - clipsToBounds = True
     <br>
     
