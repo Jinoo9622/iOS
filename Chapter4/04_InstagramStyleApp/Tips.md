@@ -59,10 +59,9 @@
 
 ## UIImagePickerController
 - 사진 앱에 접근하여, 이미지 가져오기
-  1. Info.plist에 **Privacy - Photo Library Usage Description** Key 추가
-  <br>
+  1. Info.plist에 **Privacy - Photo Library Usage Description** Key 추
   
-  ![image](https://user-images.githubusercontent.com/46417892/154832333-0db90421-0674-4a21-9d4f-b83ae50282f1.png)
+    ![image](https://user-images.githubusercontent.com/46417892/154832333-0db90421-0674-4a21-9d4f-b83ae50282f1.png)
   
   2. 권한요청
   ```swift
