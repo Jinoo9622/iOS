@@ -62,7 +62,7 @@
   1. Info.plist에 **Privacy - Photo Library Usage Description** Key 추가
      ![image](https://user-images.githubusercontent.com/46417892/154832333-0db90421-0674-4a21-9d4f-b83ae50282f1.png)
   
-  2. 권한요청
+  2. 권한요청 (권한이 허용된 경우에만, 사진앱에 접근)
       ```swift
       PHPhotoLibrary.requestAuthorization(for: .readWrite) { [weak self] status in
           guard let self = self else { return }
