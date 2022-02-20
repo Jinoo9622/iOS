@@ -82,3 +82,17 @@
           }
       }
       ```
+
+## Dismiss Keyboard (화면 터치 시)
+  ```swift
+    func dismissKeyboard() {
+        let tap = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboardTouchOutside))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboardTouchOutside() {
+        print("dismissKeyboardTouchOutside")
+        view.endEditing(true)
+    }
+  ```
