@@ -57,4 +57,29 @@
   
   ![image](https://user-images.githubusercontent.com/46417892/154256935-4228d6a1-5d44-4a6b-995d-584758e4da72.png)
 
+## UIImagePickerController
+- 사진 앱에 접근하여, 이미지 가져오기
+  1. Info.plist에 **Privacy - Photo Library Usage Description** Key 추가
+  <br>
+  ![image](https://user-images.githubusercontent.com/46417892/154832333-0db90421-0674-4a21-9d4f-b83ae50282f1.png)
   
+  2. 권한요청
+  ```swift
+  PHPhotoLibrary.requestAuthorization(for: .readWrite) { [weak self] status in
+      guard let self = self else { return }
+      switch status {
+      case .authorized:
+          print("앨범 접근 권한 허용")
+          // imagePickerController present는 main thread에서 실행
+          DispatchQueue.main.async {  
+              self.present(self.imagePickerController, animated: true)
+          }
+      case .denied:
+          print("앨범 접근 권한 거부")
+      case .notDetermined, .restricted:
+          print("앨범 접근 권한 미정")
+      default:
+          print("default")
+      }
+  }
+  ```
