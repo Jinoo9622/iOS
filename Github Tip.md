@@ -1,5 +1,6 @@
 ## git token 생성 (2021년 8월 13일 이후..)
 - git push 시 오류 발생
+  <br>
     ![image](https://user-images.githubusercontent.com/46417892/155102046-674be26e-6860-4a61-ab43-2d6e7b6a4353.png)
     
 - 해결방법
