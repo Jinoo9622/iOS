@@ -6,18 +6,15 @@
     
 - 해결방법
   
-  1. git 게정의 **Settings** 선택
-     <br>
+  1. git 게정의 **Settings** 선택 <br>
      
      ![image](https://user-images.githubusercontent.com/46417892/155102298-83daa35a-3e42-402c-861c-a491a2493bb5.png)
  
-  2. 하단의 **Developer settings** 선택
-     <br>
+  2. 하단의 **Developer settings** 선택 <br>
      
      ![image](https://user-images.githubusercontent.com/46417892/155102497-60a58ea2-3e42-4aed-8d46-f89af301541f.png)
 
-  3. **Personal access tokens** 선택 후, **Generate new token** 버튼 클릭
-     <br>
+  3. **Personal access tokens** 선택 후, **Generate new token** 버튼 클릭 <br>
      
      ![image](https://user-images.githubusercontent.com/46417892/155102894-727935df-a2ba-49a3-a291-e360cd9f4cc9.png)
 
