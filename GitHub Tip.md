@@ -1,4 +1,12 @@
-## git token 생성 (2021년 8월 13일 이후..)
+## git Setting
+1. GitHub 로그인 정보를 Local에 설정
+ ```
+ $ git config --global user.name "유저이름"
+ $ git config --global user.email "유저이메일"
+ ```
+
+
+### git token 생성 (2021년 8월 13일 이후..)
 - git push 시 오류 발생
   <br>
   
