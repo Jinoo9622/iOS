@@ -10,43 +10,43 @@
      - 하나 이상의 observer가 실시간으로 어떤 이벤트에 반응
      - 3가지 유형의 이벤트만을 생성
     
-      ```swift
-      enum Event<Element> {
-        case next(Element)      // next element of a sequence (최신/다음 데이터를 전달하는 이벤트, T에 해당하는 Element 전달)
-        case error(Swift.Error) // sequence failed with error (Observable이 에러를 발생시켜, 추가적으로 이벤트를 생성 X)
-        case completed          // squence teminated successfully (성공적으로 일련의 이벤트를 종료시키는 이벤트, 추가적으로 이벤트 생성 X)
-      }
-      ```
+        ```swift
+        enum Event<Element> {
+          case next(Element)      // next element of a sequence (최신/다음 데이터를 전달하는 이벤트, T에 해당하는 Element 전달)
+          case error(Swift.Error) // sequence failed with error (Observable이 에러를 발생시켜, 추가적으로 이벤트를 생성 X)
+          case completed          // squence teminated successfully (성공적으로 일련의 이벤트를 종료시키는 이벤트, 추가적으로 이벤트 생성 X)
+        }
+        ```
       
      - Finite Observable
     
-      ```swift
-      Network.download(file: "https://www...")
-          .subscribe(
-          onNext: { data in
-              // 임시 파일에 데이터 추가
-          },
-          onError: { error in
-              // 사용자에게 에러 표현
-          },
-          onCompleted: {
-              // 다운로드된 파일 사용
-          })
-      ```
+        ```swift
+        Network.download(file: "https://www...")
+            .subscribe(
+            onNext: { data in
+                // 임시 파일에 데이터 추가
+            },
+            onError: { error in
+                // 사용자에게 에러 표현
+            },
+            onCompleted: {
+                // 다운로드된 파일 사용
+            })
+        ```
       
      - Infinite Observable
     
-      ```swift
-      UIDevice.rx.orientation
-          .subscribe(onNext: { current in
-              switch current {
-              case .landscape:
-                  // 가로모드
-              case .portrait:
-                  // 세로모드
-              }
-          })
-      ```
+        ```swift
+        UIDevice.rx.orientation
+            .subscribe(onNext: { current in
+                switch current {
+                case .landscape:
+                    // 가로모드
+                case .portrait:
+                    // 세로모드
+                }
+            })
+        ```
       
   2. Opertator
      - ObservableType과 Observable 클래스에 포함된 복잡한 논리를 구현하기 위한 다양한 Method
@@ -54,19 +54,19 @@
      - Observable에 의해 들어온 값들을 처리하고 최종값이 나올때 방출
      - 예시.
 
-      ```swift
-      // 가로방향(landscape)이 아닌 세로방향(protrait)이 배출되었을때만 결과값을 return
-      UIDevice.rx.orientation
-          .filter { value in
-              return value != .landscape
-          }
-          .map { _ in
-              return "세로모드만 적용가능"
-          }
-          .subscribe(onNext: { string in
-              showAlert(text: string)
-          })
-      ```
+        ```swift
+        // 가로방향(landscape)이 아닌 세로방향(protrait)이 배출되었을때만 결과값을 return
+        UIDevice.rx.orientation
+            .filter { value in
+                return value != .landscape
+            }
+            .map { _ in
+                return "세로모드만 적용가능"
+            }
+            .subscribe(onNext: { string in
+                showAlert(text: string)
+            })
+        ```
       
   3. Scheduler
      - Scheduler는 함수를 실행하는 Thread를 결정해주는 역할을 함 (Rx에서의 DispatchQueue)
