@@ -1,10 +1,40 @@
 ## git Setting
 1. GitHub 로그인 정보를 Local에 설정
- ```
- $ git config --global user.name "유저이름"
- $ git config --global user.email "유저이메일"
- ```
+  ```
+  $ git config --global user.name "유저이름"
+  $ git config --global user.email "유저이메일"
+  ```
+  - Git config 설정 확인
+  ```
+  $ cat ~/.gitconfig
+  ```
+2. Remote Repository와 Local Repository를 연결
+  2.1 Repository 생성 
+    ```
+    $ git init
+    
+    $ git add .
+    $ git commit -m "commit 메시지"
+    ```
+    
+  2.2 Local Repository와 Remote Repository 연결
+  ```
+  $ git remote add origin Repository주소
+  $ git commit -v
+  ```
+3. Local Repository를 Remote Repository로 Push
+  ```
+  $ git push origin master
+  ```
 
+- 주요 명령어
+  - $ git checkout -b **브랜치 이름** : Git Branch 생성
+  - $ git checkout **브랜치 이름** : 특정한 이름의 Git Branch 이동
+  - $ git add . : 전체 파일 수정을 추가
+  - $ git add **파일** : 특정한 파일 수정을 추가
+  - $ git commit -m **commit message** : 추가한 수정으로 Commit 생성
+  - $ git pull origin **브랜치 이름** : Remote Branch의 최신 내용을 가져옴
+  - $ git push origin **브랜치 이름** : Local Branch의 최신 내용을 업로드
 
 ### git token 생성 (2021년 8월 13일 이후..)
 - git push 시 오류 발생
