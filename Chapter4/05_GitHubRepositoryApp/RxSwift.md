@@ -9,6 +9,7 @@
     - T 형태의 데이터 snapshot을 **전달**할 수 있는 일련의 이벤트를 비동기적으로 생성하는 기능
     - 하나 이상의 observer가 실시간으로 어떤 이벤트에 반응
     - 3가지 유형의 이벤트만을 생성
+    
       ```swift
       enum Event<Element> {
         case next(Element)      // next element of a sequence (최신/다음 데이터를 전달하는 이벤트, T에 해당하는 Element 전달)
@@ -16,7 +17,9 @@
         case completed          // squence teminated successfully (성공적으로 일련의 이벤트를 종료시키는 이벤트, 추가적으로 이벤트 생성 X)
       }
       ```
+      
     - Finite Observable
+    
       ```swift
       Network.download(file: "https://www...")
           .subscribe(
@@ -30,7 +33,9 @@
               // 다운로드된 파일 사용
           })
       ```
+      
     - Infinite Observable
+    
       ```swift
       UIDevice.rx.orientation
           .subscribe(onNext: { current in
@@ -42,6 +47,7 @@
               }
           })
       ```
+      
   2.2 Opertator
     - Observable
   2.3 Scheduler
