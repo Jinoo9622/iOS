@@ -1,8 +1,8 @@
 ## Operators
-- [참고자료](https://github.com/Jinoo9622/iOS/blob/master/Chapter4/05_GitHubRepositoryApp/Observable.playground/Contents.swift)
+- [Operators_예제](https://github.com/Jinoo9622/iOS/blob/master/Chapter4/05_GitHubRepositoryApp/Observable.playground/Contents.swift)
 
 ## Traits
-- [참고자료](https://github.com/Jinoo9622/iOS/blob/master/Chapter4/05_GitHubRepositoryApp/Traits.playground/Contents.swift) 
+- [Traits_예제](https://github.com/Jinoo9622/iOS/blob/master/Chapter4/05_GitHubRepositoryApp/Traits.playground/Contents.swift) 
 - Observable의 제한된 버전
 - Single
   - success 이벤트(next + completed) or error 이벤트를 **1번만** 방출하는 observable 
