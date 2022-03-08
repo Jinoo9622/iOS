@@ -4,8 +4,7 @@
 ## Traits
 - Observable의 제한된 버전
 - Single
-  - success 이벤트 or error 이벤트를 **1번만** 방출하는 observable 
-  - next + completed
+  - success 이벤트(next + completed) or error 이벤트를 **1번만** 방출하는 observable 
   - 파일 저장 or 파일 다운로드 or 디스크 데이터로딩과 같은 값을 산출하는 비동기적 연산에 사용 가능
     
     ![image](https://user-images.githubusercontent.com/46417892/157216183-b67e72b5-1b92-4f5b-9d76-18e7d44d0781.png)
