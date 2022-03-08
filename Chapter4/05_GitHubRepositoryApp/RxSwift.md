@@ -6,8 +6,14 @@
 - RxSwift의 구성요소 3가지
   1. Observable
      - Rx 코드의 기반이 되는 class
-     - T 형태의 데이터 snapshot을 **전달**할 수 있는 일련의 이벤트를 비동기적으로 생성하는 기능
+     - Observable = Observable Sequence = Sequence
+     - T 형태의 데이터 snapshot을 **전달**할 수 있는 일련의 이벤트를 **비동기적(asynchronous)**으로 생성하는 기능
+     - Obervable들은 일정 기간동안 계속해서 이벤트를 생성 (emit)
      - 하나 이상의 observer가 실시간으로 어떤 이벤트에 반응
+     - Observable 생명주기
+       - 어떤 구성요소를 가지는 **next** 이벤트를 계속해서 방출할 수 있음
+       - **error** 이벤트를 방출하여 완전 종료될 수 있음
+       - **complete** 이벤트를 방출하여 완전 종료될 수 있음
      - 3가지 유형의 이벤트만을 생성
     
         ```swift
