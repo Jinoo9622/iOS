@@ -1,5 +1,5 @@
-## Operators
-- [Operators_예제](https://github.com/Jinoo9622/iOS/blob/master/Chapter4/05_GitHubRepositoryApp/Observable.playground/Contents.swift)
+## Create Operators
+- [Create Operators 예제](https://github.com/Jinoo9622/iOS/blob/master/Chapter4/05_GitHubRepositoryApp/Observable.playground/Contents.swift)
 
 ## Traits
 - Observable의 제한된 버전
@@ -20,4 +20,7 @@
   - 동기식 연산의 성공 여부 등을 확인할때 사용 가능
 
     ![image](https://user-images.githubusercontent.com/46417892/157216391-3f6f8470-cf1c-404e-aa3f-c70c8f9f0849.png)
-- [Traits_예제](https://github.com/Jinoo9622/iOS/blob/master/Chapter4/05_GitHubRepositoryApp/Traits.playground/Contents.swift) 
+- [Traits 예제](https://github.com/Jinoo9622/iOS/blob/master/Chapter4/05_GitHubRepositoryApp/Traits.playground/Contents.swift) 
+
+## Filter Operator
+- [Filter Operator 예제]
