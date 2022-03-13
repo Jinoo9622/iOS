@@ -23,4 +23,4 @@
 - [Traits 예제](https://github.com/Jinoo9622/iOS/blob/master/Chapter4/05_GitHubRepositoryApp/Traits.playground/Contents.swift) 
 
 ## Filter Operator
-- [Filter Operator 예제]
+- [Filter Operator 예제](https://github.com/Jinoo9622/iOS/blob/master/Chapter4/05_GitHubRepositoryApp/FilteringOperator.playground/Contents.swift)
