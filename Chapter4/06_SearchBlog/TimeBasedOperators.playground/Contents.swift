@@ -38,7 +38,7 @@ timeStone
         print($0)
     })
     .disposed(by: disposeBag)
-/*
+/* !!!!!Test 시, 하나씩 주석해제하여 Test!!!!!
 print("==========buffer==========")
 // buffer : observable에서 방출하는 event를 한번에 묶어서 방출
 let source = PublishSubject<String>()
