@@ -32,6 +32,31 @@
           print($0)
       }
       .disposed(by: disposeBag)
+      
+      // 출력값 
+      괜찮아요
+      ```
+  - ```swift
+    func catchAndReturn(_ element: Self.Element) -> RxSwift.Observable<Self.Element>
+    ```
+    - ```swift
+      enum MyError: Error {
+          case anError
+      }
+      
+      Observable.create { 
+          $0.onError(MyError.anError)
+          return Disposables.create()
+      }
+      .catchAndReturn("NO!! ERROR!!")
+      .subscribe {
+          print($0)
+      }
+      .disposed(by: disposeBag)
+      
+      // 출력값
+      next(NO!! ERROR!!)
+      completed
       ```
 - retry
   - 제한적 or 무제한으로 재시도(retry) 하기 
