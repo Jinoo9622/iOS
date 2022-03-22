@@ -35,6 +35,7 @@
   - Single : 구독한 이후에 발생하는 값 전달
 
 - Rx Extension
+  - 기존의 속성들을 Rx에 맞게 적용 (대부분 적용되어있음)
   - ```swift  
     extension Reactive where Base: T {} 
     ```
@@ -46,4 +47,8 @@
             }
         }
     }
+    
+    Driver.just(Void())
+        .drive(button.rx.sizeToFit)
+        .disposed(by: disposeBag)
     ```
