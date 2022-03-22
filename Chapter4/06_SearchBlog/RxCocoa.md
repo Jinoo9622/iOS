@@ -13,18 +13,18 @@
     - Error 이벤트를 받지 않음
     - Main Thread에서 실행되는 것을 보장
     
-     ```swift
-     textField.rx.text
-         .observe(on: MainScheduler.instance)
-         .subscribe(onNext: {
-             label.text = $0
-         })
-         .disposed(by: disposeBag)
-     // 같은 기능
-     textField.rx.text
-         .bind(to: label.rx.text)
-         .disposed(by: disposeBag)
-     ```
+      ```swift
+      textField.rx.text
+          .observe(on: MainScheduler.instance)
+          .subscribe(onNext: {
+              label.text = $0
+          })
+          .disposed(by: disposeBag)
+      // 같은 기능
+      textField.rx.text
+          .bind(to: label.rx.text)
+          .disposed(by: disposeBag)
+      ```
   
 - Traits
   - 에러를 방출하지 않는 특별한 observable
