@@ -12,6 +12,7 @@
     - UI Binding에 사용
     - Error 이벤트를 받지 않음
     - Main Thread에서 실행되는 것을 보장
+    
   ```swift
   textField.rx.text
       .observe(on: MainScheduler.instance)
@@ -24,6 +25,7 @@
       .bind(to: label.rx.text)
       .disposed(by: disposeBag)
   ```
+  
 - Traits
   - 에러를 방출하지 않는 특별한 observable
   - 모든 과정은 Main Thread에서 이뤄짐
@@ -33,7 +35,15 @@
   - Single : 구독한 이후에 발생하는 값 전달
 
 - Rx Extension
-- ```swift  
-  extension Reactive where Base: T {} 
-  ```
-  
+  - ```swift  
+    extension Reactive where Base: T {} 
+    ```
+  - ```swift
+    extension Reactive where Base: UIView {
+        var sizeToFit: Binder<Void> {
+            return Binder(base) { base, _ in
+                base.sizeToFit()
+            }
+        }
+    }
+    ```
