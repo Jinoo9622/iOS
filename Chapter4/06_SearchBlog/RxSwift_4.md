@@ -16,7 +16,7 @@
           case anError
           case criticalError
       }
-      
+
       Observable.create {
           $0.onError(MyError.anError)
           return Disposables.create()
@@ -27,7 +27,7 @@
               return .just("괜찮아요")
           case .criticalError:
               return .just("안괜찮아요")
-          }
+          } 
       }
       .subscribe {
           print($0)
