@@ -6,7 +6,7 @@
   ![image](https://user-images.githubusercontent.com/46417892/159453578-8792e72f-4097-4348-b9ba-7605a2507c7c.png) 
 - **Binder**
   - binding : 단방향 data stream
-  - Binder : 
+  - Binder
     - Observer 
     - UI Binding에 사용
     - Error 이벤트를 받지 않음
