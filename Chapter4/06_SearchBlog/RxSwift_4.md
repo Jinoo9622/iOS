@@ -87,12 +87,12 @@
           case anError
           case criticalError
       }
-      // 1000번 재시도
+      // 10000번 재시도 후 error 방출
       Observable.create {
           $0.onError(MyError.anError)
           return Disposables.create()
       }
-      .retry(1000)
+      .retry(10000)
       .subscribe {
           print($0)
       }
