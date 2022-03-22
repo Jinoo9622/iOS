@@ -10,9 +10,7 @@
   - ```swift
     func catch(_ handler:) -> RxSwift.Observable<Self.Element>
     ```
-  - ex)
-  
-      ```swift
+    - ```swift
       enum MyError: Error {
           case anError
           case criticalError
