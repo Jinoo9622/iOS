@@ -60,3 +60,22 @@
       ```
 - retry
   - 제한적 or 무제한으로 재시도(retry) 하기 
+  - ```swift
+    func retry() -> RxSwift.Observable<Self.Element>
+    ```
+    - ```swift
+      enum MyError: Error {
+          case anError
+          case criticalError
+      }
+      
+      Osbervable.create {
+          $0.onError(MyError.anError)
+          return Disposables.create()
+      }
+      .retry()
+      .subscribe {
+          print($0)
+      }
+      .disposed(by: disposeBag)
+      ```
