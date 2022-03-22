@@ -10,7 +10,7 @@
   - ```swift
     func catch(_ handler:) -> RxSwift.Observable<Self.Element>
     ```
-  - ex.
+  - ex)
   
       ```swift
       enum MyError: Error {
