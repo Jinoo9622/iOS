@@ -68,12 +68,31 @@
           case anError
           case criticalError
       }
-      
+      // 무제한으로 재시도
       Osbervable.create {
           $0.onError(MyError.anError)
           return Disposables.create()
       }
       .retry()
+      .subscribe {
+          print($0)
+      }
+      .disposed(by: disposeBag)
+      ```
+  - ```swift
+    func retry(_ maxAttemptCount: Int) -> RxSwift.Observable<Self.Element>
+    ```
+    - ```swift
+      enum MyError: Error {
+          case anError
+          case criticalError
+      }
+      // 1000번 재시도
+      Observable.create {
+          $0.onError(MyError.anError)
+          return Disposables.create()
+      }
+      .retry(1000)
       .subscribe {
           print($0)
       }
