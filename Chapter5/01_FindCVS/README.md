@@ -17,3 +17,10 @@
 - Automatic Reference Counting(ARC) 을 지원하지 않기에, ARC 사용을 NO로 변경
 
   - ![image](https://user-images.githubusercontent.com/46417892/163712098-fc0efe01-68a6-4755-b2af-d9497429283a.png)
+
+
+## Could not find or use auto-linked library 'XCTestSwiftSupport' 오류 해결법
+- 다음과 같은 오류 발생 
+    ![image](https://user-images.githubusercontent.com/46417892/163713023-26b3438d-4835-4b44-be60-35aabce20b8d.png)
+ - Project -> Build Settings -> **Enable Testing Search Path = Y** 로 변경
+    ![image](https://user-images.githubusercontent.com/46417892/163713091-f22a0332-818b-403a-a683-b618fe8ed24f.png)
