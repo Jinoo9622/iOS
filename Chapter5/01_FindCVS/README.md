@@ -7,7 +7,10 @@
   1. BridgingHeader.h 생성 및 <DaumMap/MTMapView.h> import
 
     - ![image](https://user-images.githubusercontent.com/46417892/163712003-bb1d671f-a53c-4155-ba46-1de10172c643.png)
-
+  2. Swift Compiler에 BridgingHeader.h Path 추가
+    
+    - ![image](https://user-images.githubusercontent.com/46417892/163712218-cb3af915-3810-49cc-84ee-08f72023e6fc.png)
+ 
 - DaumMap Framework가 사용하는 Framework들을 추가
 
   - ![image](https://user-images.githubusercontent.com/46417892/163711974-49f17ad2-ed15-42f1-bd8f-53c7374e2432.png)
