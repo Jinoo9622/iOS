@@ -32,7 +32,7 @@
   - 스트림 공유가 가능 (리소스 절약)
     - bind 사용 시, observer가 늘어날 때마다 stream도 늘어남 -> 리소스 낭비
   - Driver : 초기값 || 최신값 replay
-  - Single : 구독한 이후에 발생하는 값 전달
+  - Signal : 구독한 이후에 발생하는 값 전달
 
 - Rx Extension
   - 기존의 속성들을 Rx에 맞게 적용 (대부분 적용되어있음)
