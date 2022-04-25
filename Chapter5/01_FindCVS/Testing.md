@@ -48,6 +48,13 @@
 5. Test file 작성
 6. Test 실행
   - Command + U or Build Button을 길게 Click
+7. 테스트 결과
+  - 성공
 
-    
+    ![image](https://user-images.githubusercontent.com/46417892/165076317-2a3cb795-6b12-49cb-a44c-e630625a2c2b.png)
+
+  - 실패
+
+    ![image](https://user-images.githubusercontent.com/46417892/165076362-cc28e507-2d5e-45c4-b1d4-401fdcd22de3.png)
+
     
