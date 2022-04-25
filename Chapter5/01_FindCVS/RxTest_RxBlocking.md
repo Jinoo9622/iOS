@@ -58,7 +58,7 @@
   
   ```swift
   // Observable -> BlockingObservable
-  let observable = Observable.of("A","B","C").toBlocking
+  let observable = Observable.of("A","B","C").toBlocking()
   
   // Observable의 .next 이벤트를 Array로 전환
   // .toArray(): 해당 observable이 onCompleted 까지 대기
@@ -66,5 +66,9 @@
   
   // Nimble의 문법을 활용한 Test Assertion
   expect(values).to(equal(["A","B","C"]))
+  
+  // complete 되지 않는 경우 or complete을 보장하지 않는 경우
+  // 해당 interval time에 발생한 이벤트에 대해서만 
+  let observable = Observable.of("A","B","C").toBlocking(timeout: 2)
   ```
    
