@@ -10,8 +10,8 @@
    3. Host Application 적용 확인
       ![image](https://user-images.githubusercontent.com/46417892/165065098-39194ab0-78b1-4f3a-8c47-918a13a348b6.png)
  
-2. 기존의 Test file 삭제 <br>
-
+2. 기존의 Test file 삭제
+ 
     ![image](https://user-images.githubusercontent.com/46417892/165065619-3b54ae4a-ead5-4984-a145-03f3e110f9c6.png)
 
 3. Test할 file 생성
