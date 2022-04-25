@@ -46,3 +46,8 @@
    end
    ```
 5. Test file 작성
+6. Test 실행
+  - Command + U or Build Button을 길게 Click
+
+    
+    
