@@ -18,3 +18,31 @@
     ![image](https://user-images.githubusercontent.com/46417892/165065873-5c512b45-c76c-4201-9377-bbfd97255bba.png)
     
     ※ Bridging header에 대한 팝업 시, 필요에따라 생성
+4. RxSwift Error 발생 시, cocoapod으로 다음과 같이 설치
+   ![image](https://user-images.githubusercontent.com/46417892/165066883-999a4b5a-c555-442c-ba28-d84603da72d6.png)
+
+   ```
+   # Uncomment the next line to define a global platform for your project
+   # platform :ios, '9.0'
+
+   target 'FindCVS' do
+     # Comment the next line if you don't want to use dynamic frameworks
+     use_frameworks!
+
+     # Pods for FindCVS
+     pod 'RxSwift'
+     pod 'RxCocoa'
+     pod 'SnapKit'
+
+     target 'FindCVSTests' do
+       inherit! :search_paths
+       # Pods for testing
+       pod 'Stubber'
+       pod 'Nimble'
+       pod 'RxBlocking'
+       pod 'RxTest'
+     end
+
+   end
+   ```
+   
