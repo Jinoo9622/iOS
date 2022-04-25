@@ -51,3 +51,20 @@
     )
     ```
   
+## RxBlocking
+- Observable의 Event 방출을 검증
+- 특정 시간동안 방출된 Observable의 Event 검증
+- RxTest에 있는 scheduler라는 개념은 없음
+  
+  ```swift
+  // Observable -> BlockingObservable
+  let observable = Observable.of("A","B","C").toBlocking
+  
+  // Observable의 .next 이벤트를 Array로 전환
+  // .toArray(): 해당 observable이 onCompleted 까지 대기
+  let values = try! observable.toArray()
+  
+  // Nimble의 문법을 활용한 Test Assertion
+  expect(values).to(equal(["A","B","C"]))
+  ```
+   
