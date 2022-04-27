@@ -86,7 +86,7 @@
     func tryMap<T>(_ transform: (Output) throws -> T) -> Result<T, Error>.Publisher
     ```
 - 결합연산자 (RxSwift / Combine)
-  - 묶을 수 있는 sequence 개수에 따라 다른 struct명을 갖 (Combine
+  - Combine: 묶을 수 있는 sequence 개수에 따라 다른 struct명을 갖는다
   - merge / Merge, Merge2 ... MergeMany
   - combineLatest / CombineLatest, CombineLatest3, CombineLatest4
   - zip / Zip, Zip3, Zip4
