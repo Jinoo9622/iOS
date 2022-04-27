@@ -6,7 +6,10 @@
   - URLSession
   - KVO
   - Ad-hoc callbacks
-- 핵심요소
-  - Publishers  (RxSwift의 Observables)
-  - Subscribers (RxSwift의 Observers)
-  - Operators   (RxSwift의 Operators)
+- 핵심요소 (vs RxSwift)
+  - Publishers (Observables)
+  - Subscribers (Observers)
+  - Operators (Operators)
+  - Subject (Subject)
+  - Cancellable (Disposable)
+  - Subscribe(on:) (SubscribeOn(:))
