@@ -62,7 +62,6 @@
   - sample
   - from
   - withLatestFrom
-
 - Combine에만 있는 Operators (try + operators / error handling을 도와줌)
   - tryMap
   - tryContaions(where:)
@@ -90,3 +89,54 @@
   - merge / Merge, Merge2 ... MergeMany
   - combineLatest / CombineLatest, CombineLatest3, CombineLatest4
   - zip / Zip, Zip3, Zip4
+- Subject (Observable이면서 Observer / Publisher면서 Subscriber)
+  - PublishSubject / PassthroughSubject
+  - ReplaySubject / ❌
+  - BehaviorSubject / CurrentValueSubject
+  ```swift
+  // PassthroughSubject
+  class PassthroughSubject<Output, Failiure> {
+      public init() {
+      }
+  }
+  // PublishSubject
+  class PublishSubject<Element> {
+      override init() {
+      }
+  }
+  
+  // CurrentValueSubject 
+  class CurrentValueSubject<Output, Failure> {
+      public init(_ value: Output) {
+      }
+  }
+  // BehaviorSubject
+  class BehaviorSubject<Element> {
+      init(value: Element) {
+      }
+  }
+  ```
+
+- Disposable / Cancellable
+  - memmory 누수 방지
+  - deinit 시점에 publisher에 대하여 auto cancel이 일어남
+  - Combine의 경우 RxSwift의 DisposeBag과 같은 역할을 하는 것은 없음
+  ```swift
+  // Cancellable
+  let cancellables = Set<Cancellable>()
+  Just(1)
+      .sink {
+          print($0)
+      }
+      .store(in: &cancellables)
+      
+  // Disposable
+  let disposeBag = DisposeBag()
+  Observable.just(1)
+      .subscribe(onNext: {
+          print($0)
+      })
+      .disposed(by: disposeBag)
+  ```
+- Thread Handling
+  - RxSwift의 subscribe(on:)은 upstream / downstream에 상관없이 동작하지만, Combine의 subscribeOn(:)은 upstream에 대해서만 동작함
