@@ -13,3 +13,18 @@
   - Subject (Subject)
   - Cancellable (Disposable)
   - Subscribe(on:) (SubscribeOn(:))
+
+
+## Combine vs RxSwift
+- Publisher vs Observable
+  - Publisher
+    - Combine의 선언체
+      ```swift
+      public protocol Publisher {}
+      struct AnyPublisher: Publisher {}
+      ```
+  - Observable
+    - event stream 
+      ```swift
+      class Observable: ObservableType {}
+      ```
