@@ -18,13 +18,28 @@
 ## Combine vs RxSwift
 - Publisher vs Observable
   - Publisher
-    - Combine의 선언체
+    - Value Type
       ```swift
       public protocol Publisher {}
       struct AnyPublisher: Publisher {}
       ```
+    - 값(Data Type)과 오류(Error Type)를 정의
+      ```swift
+      associatedtype Output
+      associatedtype Failure: Error
+      
+      AnyPublisher<String, Error>
+      AnyPublisher<String, Never>
+      ```
   - Observable
-    - event stream 
+    - Reference Type
       ```swift
       class Observable: ObservableType {}
+      ```
+    - element라는 data type을 받을 뿐 별도의 error type을 받지 않는다. (Result Type 사용 시, Publisher와 비슷하게 구현 가능)
+      ```swift
+      class Observable<Element>
+      
+      Observable<Result<String, Error>>
+      Observable<String>
       ```
