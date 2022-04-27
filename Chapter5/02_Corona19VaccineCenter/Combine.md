@@ -29,7 +29,7 @@
       associatedtype Failure: Error
       
       AnyPublisher<String, Error>
-      AnyPublisher<String, Never>
+      AnyPublisher<String, Never> // error가 발생할 수 없는 경우 Never Type 사용
       ```
   - Observable
     - Reference Type
@@ -43,3 +43,45 @@
       Observable<Result<String, Error>>
       Observable<String>
       ```
+- RxSwift에만 있는 Operators
+  - amb
+  - groupBy
+  - asObserver
+  - ifEmpty(switchTo:)
+  - concatMap
+  - interrval
+  - create
+  - materialize
+  - delaySubscription
+  - range
+  - dematerialize
+  - repeatElement
+  - enumerated
+  - retryWhen
+  - faltMapFirst
+  - sample
+  - from
+  - withLatestFrom
+
+- Combine에만 있는 Operators (try + operators / error handling을 도와줌)
+  - tryMap
+  - tryContaions(where:)
+  - tryScan
+  - tryAllSatisfy
+  - tryFilter
+  - tryDrop(while:)
+  - tryCompactMap
+  - tryPrefix(while:)
+  - tryRemoveDuplicates(by:)
+  - tryFirst(where:)
+  - tryReduce
+  - tryLast(where:)
+  - tryMax(by:)
+  - tryCatch
+  - tryMin(by:)
+  - ex.
+    ```swift
+    func map<T>(_ transform: (Output) -> T) -> Just<T>
+    
+    func tryMap<T>(_ transform: (Output) throws -> T) -> Result<T, Error>.Publisher
+    ```
