@@ -3,4 +3,4 @@
 
 ## List vs LazyHStack
 - HStack
-  - <span style="color:red">초기화 시점</span>에 **모든 View를 생성**함
+  - <span style="color:red">초기화 시점</span> 에 **모든 View를 생성**함
