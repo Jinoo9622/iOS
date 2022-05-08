@@ -4,6 +4,33 @@
 ## List vs LazyHStack
 - HStack
   - 초기화 시점에 **모든 View를 생성**함
+    ```swift
+    // HStack
+    struct SampleHStack: View {
+        var body: some View {
+            ScrollView(.horizontal) {
+                HStack {    // 개별 componet로는 10개까지 사용 가능
+                    Text("HStack 알아보기")
+                    Text("HStack 알아보기")
+                    Text("HStack 알아보기")
+                    Text("HStack 알아보기")
+                    Text("HStack 알아보기")
+                    Text("HStack 알아보기")
+                    Text("HStack 알아보기")
+                    Text("HStack 알아보기")
+                    Text("HStack 알아보기")
+                    Text("HStack 알아보기")
+                }
+            }
+        }
+    }
+
+    struct SampleHStack_Previews: PreviewProvider {
+        static var previews: some View {
+            SampleHStack()
+        }
+    }
+    ```
 - LazyHStack
   - **초기화 시점에 모든 Cell을 생성하지 않음**
   - **최대 index 31까지**의 데이터의 Cell(View)를 생성 (초기)
