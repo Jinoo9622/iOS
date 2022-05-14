@@ -65,3 +65,27 @@
   - **초기화 시점에 모든 Cell을 생성하지 않음**
   - **UITableView와 비슷**. 보여질 필요가 있는 Cell(View)만 생성
   - **Cell의 삭제/추가 기능이 있음**
+    ```swift
+    // List
+    struct SampleList: View {
+        struct Number: Identifiable {
+            let value: Int
+            var id: Int { value }
+        }
+        let numbers: [Number] = (0...100).map { Number(value: $0) }
+
+        var body: some View {
+            List {  // Scroll 기능을 기본적으로 가지고있음
+                ForEach(numbers) { number in
+                    Text("\(number.value)")
+                }
+            }
+        }
+    }
+
+    struct SampleList_Previews: PreviewProvider {
+        static var previews: some View {
+            SampleList()
+        }
+    }
+    ```
