@@ -75,7 +75,13 @@
         let numbers: [Number] = (0...100).map { Number(value: $0) }
 
         var body: some View {
-            List {  // Scroll 기능을 기본적으로 가지고있음
+            Section(header: Text("Header")) {
+                ForEach(numbers) { number in
+                    Text("\(number.value)")
+                }
+            }
+            
+            Section(header: Text("Second Header"), footer: Text("Footer")) {
                 ForEach(numbers) { number in
                     Text("\(number.value)")
                 }
