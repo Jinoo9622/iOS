@@ -35,6 +35,32 @@
   - **초기화 시점에 모든 Cell을 생성하지 않음**
   - **최대 index 31까지**의 데이터의 Cell(View)를 생성 (초기)
   - 이후에는 보여질 필요가 있는 Cell(View)를 생성
+    ```swift
+    // LazyHStack
+    struct SampleLazyHStack: View {
+        struct Number: Identifiable {   // ForEach를 사용하기 위해서는, Identifiable Protocol을 따라야함
+            let value: Int
+            var id: Int { value }
+        }
+        let numbers: [Number] = (0...100).map { Number(value: $0) }
+
+        var body: some View {
+            ScrollView(.horizontal) {
+                LazyHStack {    // HStack 자체에는 Scroll 기능이 없음
+                    ForEach(numbers) { number in
+                        Text("\(number.value)")
+                    }
+                }
+            }
+        }
+    }
+
+    struct SampleLazyHStack_Previews: PreviewProvider {
+        static var previews: some View {
+            SampleLazyHStack()
+        }
+    }
+    ```
 - List
   - **초기화 시점에 모든 Cell을 생성하지 않음**
   - **UITableView와 비슷**. 보여질 필요가 있는 Cell(View)만 생성
