@@ -72,6 +72,9 @@
     ```
 
 ## @ObservedObject
+- [참고](https://developer.apple.com/documentation/swiftui/observedobject)
+
+    ```swift
     import SwiftUI
 
     class ButtonModel: ObservableObject {
@@ -106,3 +109,4 @@
             ParentView()
         }
     }
+    ```
