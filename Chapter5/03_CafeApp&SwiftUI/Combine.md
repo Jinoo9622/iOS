@@ -72,7 +72,6 @@
     ```
 
 ## @ObservedObject
-    ```swift
     import SwiftUI
 
     class ButtonModel: ObservableObject {
@@ -107,4 +106,3 @@
             ParentView()
         }
     }
-    ```
