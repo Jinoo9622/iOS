@@ -72,7 +72,6 @@
     ```
 
 ## @ObservedObject
-
     ```swift
     import SwiftUI
 
