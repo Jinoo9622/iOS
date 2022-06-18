@@ -77,7 +77,7 @@
     ```swift
     import SwiftUI
 
-    class ButtonModel: ObservableObject {
+    class ButtonModel: ObservableObject {   // ObservableObject는 반드시 class로 선언
         @Published var isDisabled = true
     }
 
