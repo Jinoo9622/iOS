@@ -22,3 +22,7 @@
      <img width="300" height="250" src="https://user-images.githubusercontent.com/46417892/178101806-92d3540f-32f4-47c4-b1dc-a3273acd5984.png">
 
      <img width="300" height="250" src="https://user-images.githubusercontent.com/46417892/178101877-118db74e-34d4-4882-9c59-a4282a0e1e4b.png">
+
+  4. 국가별로 표시될 내용들 작성
+
+     <img width="1149" src="https://user-images.githubusercontent.com/46417892/178102670-e4ab3e64-987f-4e1f-965c-617a0e3df39c.png">
