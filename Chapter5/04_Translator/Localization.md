@@ -6,13 +6,13 @@
 
      <img width="728" src="https://user-images.githubusercontent.com/46417892/178101230-54672c38-9b77-431d-99c3-cd13ce164c33.png">
 
-  2. Project 설정의 Info의 Localizations 확인 후, 적용언어 추가
+  2. Project 설정 
 
-    1. 
+    1. Info의 Localizations 확인 
 
       <img width="886" src="https://user-images.githubusercontent.com/46417892/178101297-fd3e6992-c3a5-4868-9823-cbc3dbe131b1.png">
 
-    2. 
+    2. 적용언어 추가
 
       <img width="733" src="https://user-images.githubusercontent.com/46417892/178101531-c719dc44-d62e-4fe8-9c7f-078733bf3dd3.png">
 
