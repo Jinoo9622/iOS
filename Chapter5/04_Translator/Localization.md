@@ -4,7 +4,7 @@
 - 구현방법
   1. Strings File 생성 (Localizable)
 
-    <img width="728" src="https://user-images.githubusercontent.com/46417892/178101230-54672c38-9b77-431d-99c3-cd13ce164c33.png">
+     <img width="728" src="https://user-images.githubusercontent.com/46417892/178101230-54672c38-9b77-431d-99c3-cd13ce164c33.png">
 
   2. Project 설정 
       1. Info의 Localizations 확인 
@@ -17,8 +17,8 @@
 
   3. 생성된 Localizable 파일의 Localize 버튼 클릭하여 활성화
 
-    <img width="300" height="250" src="https://user-images.githubusercontent.com/46417892/178101772-2e95bbd7-445e-469c-b2e4-52b2afeeeb31.png">
+     <img width="300" height="250" src="https://user-images.githubusercontent.com/46417892/178101772-2e95bbd7-445e-469c-b2e4-52b2afeeeb31.png">
 
-    <img width="300" height="250" src="https://user-images.githubusercontent.com/46417892/178101806-92d3540f-32f4-47c4-b1dc-a3273acd5984.png">
+     <img width="300" height="250" src="https://user-images.githubusercontent.com/46417892/178101806-92d3540f-32f4-47c4-b1dc-a3273acd5984.png">
 
-    <img width="300" height="250" src="https://user-images.githubusercontent.com/46417892/178101877-118db74e-34d4-4882-9c59-a4282a0e1e4b.png">
+     <img width="300" height="250" src="https://user-images.githubusercontent.com/46417892/178101877-118db74e-34d4-4882-9c59-a4282a0e1e4b.png">
