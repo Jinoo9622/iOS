@@ -4,7 +4,11 @@
 - 구현방법
   1. Strings File 생성
 
-     <img width="728" alt="스크린샷 2022-07-09 오후 7 08 08" src="https://user-images.githubusercontent.com/46417892/178101230-54672c38-9b77-431d-99c3-cd13ce164c33.png">
+     <img width="728" src="https://user-images.githubusercontent.com/46417892/178101230-54672c38-9b77-431d-99c3-cd13ce164c33.png">
 
-  2. 
-  
+  2. Project 설정의 Info의 Localizations 확인
+
+     <img width="886" src="https://user-images.githubusercontent.com/46417892/178101297-fd3e6992-c3a5-4868-9823-cbc3dbe131b1.png">
+
+
+  3. 
