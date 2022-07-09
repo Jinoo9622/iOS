@@ -17,8 +17,8 @@
 
   3. 생성된 Localizable 파일의 Localize 버튼 클릭하여 활성화
 
-    <img src="https://user-images.githubusercontent.com/46417892/178101772-2e95bbd7-445e-469c-b2e4-52b2afeeeb31.png">
+    <img width="250" height="300" src="https://user-images.githubusercontent.com/46417892/178101772-2e95bbd7-445e-469c-b2e4-52b2afeeeb31.png">
 
-    <img src="https://user-images.githubusercontent.com/46417892/178101806-92d3540f-32f4-47c4-b1dc-a3273acd5984.png">
+    <img width="250" height="300" src="https://user-images.githubusercontent.com/46417892/178101806-92d3540f-32f4-47c4-b1dc-a3273acd5984.png">
 
-    <img src="https://user-images.githubusercontent.com/46417892/178101877-118db74e-34d4-4882-9c59-a4282a0e1e4b.png">
+    <img width="250" height="300" src="https://user-images.githubusercontent.com/46417892/178101877-118db74e-34d4-4882-9c59-a4282a0e1e4b.png">
