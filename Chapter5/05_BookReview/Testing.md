@@ -24,18 +24,18 @@
 - 설정방법
   1. Edit Scheme 선택
 
-    <img width="555" src="https://user-images.githubusercontent.com/46417892/179216476-35e6641c-b773-4b00-9799-60bf774c5e63.png">
+      <img width="555" src="https://user-images.githubusercontent.com/46417892/179216476-35e6641c-b773-4b00-9799-60bf774c5e63.png">
     
   2. Test > Options > Code Coverage > Gather coverage for 체크
 
-    <img width="932" src="https://user-images.githubusercontent.com/46417892/179216902-4f56ad95-8c48-4baf-8e19-17738897d796.png">
+      <img width="932" src="https://user-images.githubusercontent.com/46417892/179216902-4f56ad95-8c48-4baf-8e19-17738897d796.png">
     
 
   3. 작성한 모든 Test 실행
 
-    <img width="300" src="https://user-images.githubusercontent.com/46417892/179217291-feced3c8-9ac3-4a12-9481-981e75a9d99e.png">
+      <img width="300" src="https://user-images.githubusercontent.com/46417892/179217291-feced3c8-9ac3-4a12-9481-981e75a9d99e.png">
     
   4. Coverage 확인
     
-   <img width="958" src="https://user-images.githubusercontent.com/46417892/179217387-5af1a566-f4bd-4056-9346-fcdd7dd8acfb.png">
+      <img width="958" src="https://user-images.githubusercontent.com/46417892/179217387-5af1a566-f4bd-4056-9346-fcdd7dd8acfb.png">
      
