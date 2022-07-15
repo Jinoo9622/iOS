@@ -23,4 +23,4 @@
 - App의 안정성을 확인하는 기준
 - 설정방법
   1. Edit Scheme 선택
-    <img width="555" src="https://user-images.githubusercontent.com/46417892/179216476-35e6641c-b773-4b00-9799-60bf774c5e63.png">
+      <img width="555" src="https://user-images.githubusercontent.com/46417892/179216476-35e6641c-b773-4b00-9799-60bf774c5e63.png">
