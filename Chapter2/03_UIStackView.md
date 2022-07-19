@@ -18,7 +18,7 @@
         - top : StackView의 top에 맞춰 정렬
         - first baseline : subview들의 first baseline에 맞춰 정렬 (horizontal인 경우에만 사용가능)
         - center : subview들의 center를 StackView의 center에 맞춰 정렬
-        - trailin : StackView의 trailing에 맞춰 정렬
+        - trailing : StackView의 trailing에 맞춰 정렬
         - bottom : StackView의 bottom 맞춰 정렬
         - last baseline : subview들의 last baseline에 맞춰 정렬 (horizontal인 경우에만 사용가능)
     - Spacing : StackView안에 들어가는 view들의 간격을 조정하는 속성
