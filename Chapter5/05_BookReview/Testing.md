@@ -13,7 +13,7 @@
 
     }
 
-    func testExample() throws { // 1개의 Test 항목 (※ 어두에 test가 있는 경우, test method로 인식)
+    func testExample() throws { // 1개의 Test 항목 (※ test로 시작되는 경우, test method로 인식)
 
     }
     ```
