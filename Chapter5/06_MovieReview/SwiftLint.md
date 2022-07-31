@@ -20,6 +20,7 @@
 
         <img width="1792" src="https://user-images.githubusercontent.com/46417892/182019259-05b2c81f-f0b2-47c8-9158-0fae2e4e0dcf.png">
 
-        
-      
   - Homebrew: Mac Local 자체에 설치
+
+## Naver 검색 API (영화)
+- [참고](https://developers.naver.com/docs/serviceapi/search/movie/movie.md#%EC%98%81%ED%99%94)
