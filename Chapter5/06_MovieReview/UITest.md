@@ -12,13 +12,9 @@
   
       2. 실행된 Simulator에서 클릭 / 제스쳐 등 실행
 
-          <img width="800" src="https://user-images.githubusercontent.com/46417892/183399122-c285b43b-0bc0-438b-aa74-c195a4ffb60b.png">
+          <img width="400" src="https://user-images.githubusercontent.com/46417892/183399122-c285b43b-0bc0-438b-aa74-c195a4ffb60b.png">
           
-          <img width="800" src="https://user-images.githubusercontent.com/46417892/183399208-bed3e8a5-3938-4590-907e-74cf267d4a3d.png">
-
-          ![image](https://user-images.githubusercontent.com/46417892/183399122-c285b43b-0bc0-438b-aa74-c195a4ffb60b.png)
-
-          ![image](https://user-images.githubusercontent.com/46417892/183399208-bed3e8a5-3938-4590-907e-74cf267d4a3d.png)
+          <img width="400" src="https://user-images.githubusercontent.com/46417892/183399208-bed3e8a5-3938-4590-907e-74cf267d4a3d.png">
 
 
       3. 실행한 클릭 / 제스쳐 등이 표시됨
