@@ -26,10 +26,10 @@
 - Test Coverage 확인
   - 적용
     - Edit Scheme (Product -> Scheme -> Edit Scheme)
-
-      <img width="179" src="https://user-images.githubusercontent.com/46417892/185604695-4a21b538-8c5a-40a6-bc7c-28fc0957126a.png">
       
-      <img width="583" src="https://user-images.githubusercontent.com/46417892/185604782-ae386daa-58bd-4d44-b1c1-5b4d29ea66a2.png">
+      <img width="500" src="https://user-images.githubusercontent.com/46417892/185604782-ae386daa-58bd-4d44-b1c1-5b4d29ea66a2.png">
+      
+      <img width="200" src="https://user-images.githubusercontent.com/46417892/185604695-4a21b538-8c5a-40a6-bc7c-28fc0957126a.png">
       
     - Test -> Code Coverage check
 
