@@ -72,3 +72,23 @@
 
      ![image](https://user-images.githubusercontent.com/46417892/155104168-c6d0abac-8637-4029-9366-323b8e9670cc.png)
 
+## Git Push 오류 해결
+- 신규 repository 생성 후 push 오류 발생
+  ```
+    hint: Updates were rejected because the tip of your current branch is behind
+    hint: its remote counterpart. Integrate the remote changes (e.g.
+    hint: 'git pull ...') before pushing again.
+    hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+  ```
+- 원인
+  1. github repository 생성 시 Readme.md를 생성해서 발생하는 오류
+  2. 데이터 유실 등의 문제가 발생할 수 있어서 git에서 처리되지않도록 에러 발생 (ex. 기존에 push한 파일이 존재 등)
+
+- 해결방법
+  ```
+  git push -u origin +main
+  ```
+  or
+  ```
+  git push origin main -f
+  ```
