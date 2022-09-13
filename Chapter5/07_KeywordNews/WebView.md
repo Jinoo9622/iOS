@@ -1,0 +1,14 @@
+## WebView
+- 종류
+  - **UIWebView** iOS 2.0 ~ (현재는 사용하지 않음)
+    - UIKit 프레임워크에 있는 UIView를 상속하는 class
+    - 메모리 관리 방식이 WKWebView와 다름
+    - **WKWebView에 비해 성능이 좋지 않음**
+  - **SFSafariView** iOS 9.0 ~ (필요에 따라 사용됨)
+    - UIViewController를 상속하는 class
+    - **Safari 앱과 동일한 기능을 갖고 있는 ViewController**
+    - **Safari와 동일한 쿠키, 웹사이트 데이터 등을 공유**
+  - **WKWebView** iOS 8.0 ~ (가장 일반적으로 사용됨)
+    - WebKit 프레임워크의 class
+    - **메모리가 앱과 별도의 스레드로 관리됨** (웹페이지에 메모리가 많이 할당되더라도, 앱은 죽지 않음)
+    - **UIWebView와 비교했을 때, 성능이 좋음**
