@@ -19,5 +19,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>X-Naver-Client-Id</key>
+	<string></string>
+	<key>X-Naver-Client-Secret</key>
+	<string></string>
 </dict>
 </plist>
