@@ -10,4 +10,7 @@
 - CI/CD: 개발팀이 더 자주, 안정적으로 코드 변경을 제공하기 위해 사용하는 문화와 운영 원칙, 일련의 작업 방식으로 구성됨.
 
 [출처](https://www.ciokorea.com/insider/233289)
-          
+
+![cicd](https://user-images.githubusercontent.com/46417892/190387301-f84e5102-5237-4d07-ae5f-91ae820d9c31.png)
+
+[출처](https://velog.io/@cham/CICD-CICD%EB%9E%80)        
