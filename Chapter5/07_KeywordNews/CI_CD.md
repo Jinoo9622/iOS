@@ -12,5 +12,4 @@
 [출처](https://www.ciokorea.com/insider/233289)
 
 ![cicd](https://user-images.githubusercontent.com/46417892/190387301-f84e5102-5237-4d07-ae5f-91ae820d9c31.png)
-
-[출처](https://velog.io/@cham/CICD-CICD%EB%9E%80)        
+(이미지 출처: https://velog.io/@cham/CICD-CICD%EB%9E%80)     
