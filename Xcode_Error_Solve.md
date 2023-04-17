@@ -1,6 +1,7 @@
 # Xcode Bug Solve
 - Xcode 14.3
   1. Archive 시, 아래와 같은 오류 발생 
+
         <img width="1203" src="https://user-images.githubusercontent.com/46417892/232380658-d46ae6ea-021d-4604-a17c-8a38fff7784a.png">
 
   2. Pods-framework file readlink 수정 
