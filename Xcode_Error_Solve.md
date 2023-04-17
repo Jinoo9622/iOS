@@ -7,5 +7,6 @@
   2. Pods-framework file readlink 수정 
 
       <img width="1199" src="https://user-images.githubusercontent.com/46417892/232380927-9618766f-7b12-48b1-817a-53011aa04298.png">
+      [참고 1](https://developer.apple.com/forums/thread/725230?answerId=746897022#746897022)  
 
-      [참고 1](https://developer.apple.com/forums/thread/725230?answerId=746897022#746897022)  [참고 2](https://developer.apple.com/forums/thread/727525)
+      [참고 2](https://developer.apple.com/forums/thread/727525)
