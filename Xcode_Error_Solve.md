@@ -1,6 +1,6 @@
 # Xcode Bug Solve
 - Xcode 14.3
-  1. Archive 시, 아래와 같은 오류 발생 
+  1. 빌드 시, 아래와 같은 오류 발생 ("Command PhaseScriptExecution failed with a nonzero exit code")
 
         <img width="1203" src="https://user-images.githubusercontent.com/46417892/232380658-d46ae6ea-021d-4604-a17c-8a38fff7784a.png">
 
